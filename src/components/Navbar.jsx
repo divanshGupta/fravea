@@ -45,14 +45,16 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <nav className="hidden md:flex gap-6 items-center">
           <div id='menu' className='md:flex gap-6 items-center' >
+
+            {/* migrated link's styles to index.css */}
             <h4>
-              <a className="">
+              <a>
               Try Now
               </a>
             </h4>
 
             <h4>
-              <a className="">
+              <a>
                 Contact Us
               </a>
             </h4>

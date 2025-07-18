@@ -53,7 +53,7 @@ export const socials = [
 
 //faqs for accordion menu
 export const faqs = [
-  { id: 1, question: "What is your return policy?", answer: "We offer a 30-day return policy." },
-  { id: 2, question: "Do you ship internationally?", answer: "Yes, we ship to over 50 countries." },
-  { id: 3, question: "How can I track my order?", answer: "Tracking details are emailed after shipping." },
+  { id: 1, question: "Unlock glowing, oil-free skin with nature's ancient clay remedy trusted for generations.", answer: "Multani Mitti, also known as Fuller’s Earth, is a natural clay known for its deep-cleansing properties; it is commonly used as a facial mask to absorb excess oil, cleanse pores, and refresh the skin." },
+  { id: 2, question: "Can Multani Mitti help with acne and pimples?", answer: "Yes, Multani Mitti’s ability to absorb oil and impurities makes it helpful in managing mild acne and pimples, as it unclogs pores and soothes inflammation." },
+  { id: 3, question: "Are there any side effects of using Multani Mitti?", answer: "Side effects are rare but may include excessive dryness, irritation, or allergic reactions—always perform a patch test before regular use, especially if you have sensitive skin." },
 ];

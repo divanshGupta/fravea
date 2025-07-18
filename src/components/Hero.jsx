@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <div className='flex flex-col md:flex-row w-full min-h-screen border-b-black'>
       {/* Left Section */}
-      <div className='w-full md:w-1/2 flex flex-col items-start justify-center gap-2 md:gap-6 px-6 md:pl-40 py-30 md:py-60 text-center md:text-left'>
+      <div className='w-full md:w-1/2 flex flex-col items-center justify-center md:items-start gap-6 md:gap-6 px-6 md:pl-40 pt-30 pb-10 md:py-60 text-center md:text-left'>
         <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold md:font-bold'>
           Reveal Your Natural Glow with Our Organic Facial Pack
         </h1>
@@ -15,7 +15,7 @@ export default function Hero() {
       </div>
 
       {/* Right Section */}
-      <div className='w-full md:w-1/2 flex items-center justify-center px-6 py-10'>
+      <div className='w-full md:w-1/2 flex items-center justify-center md:px-6 md:py-10'>
         <img
           src="/packaging.png"
           alt="Fravea Multani Mitti"

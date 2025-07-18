@@ -2,8 +2,10 @@ import { socials } from "../Constants/constants";
 import { motion } from "framer-motion";
 
 export default function Futer() {
+
+  {/* change misspeled futer to 'footer' */}
   return (
-    <footer className="w-full border-t border-black/20 bg-yellow-50 text-black px-4 py-10 md:px-16 lg:px-24">
+    <footer className="w-full bg-yellow-50 text-black px-4 py-10 md:px-16 lg:px-24">
       <div className="flex flex-col md:flex-row justify-between gap-10">
         {/* Right Section */}
         <motion.div
@@ -49,12 +51,13 @@ export default function Futer() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
           className="w-full md:w-1/2 flex flex-col items-center justify-between">
-          <div className="flex flex-col items-center gap-2">
+          <div className="flex flex-col items-center">
             {/* <h1 className="text-7xl md:text-9xl tracking-wider">Fravea.</h1> */}
             <img src="./logo.png" className="w-80 md:w-100 " alt='Fravea-logo'/>
             <p className="text-3xl tracking-wider">Organic</p>
           </div>
-          <div>
+
+          <div className="mt-12 md:mt-4">
             <p>© 2025 FRAVEA LIMITED. All Rights Reserved.</p>
           </div>
         </motion.div>
