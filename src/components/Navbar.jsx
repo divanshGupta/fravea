@@ -44,12 +44,19 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex gap-6 items-center">
-          <button className="px-5 py-2 rounded-full border hover:bg-black hover:text-white transition">
-            Try Now
-          </button>
-          <button className="px-5 py-2 rounded-full border hover:bg-black hover:text-white transition">
-            Contact Us
-          </button>
+          <div id='menu' className='md:flex gap-6 items-center' >
+            <h4>
+              <a className="">
+              Try Now
+              </a>
+            </h4>
+
+            <h4>
+              <a className="">
+                Contact Us
+              </a>
+            </h4>
+          </div>
         </nav>
 
         {/* Hamburger Icon */}

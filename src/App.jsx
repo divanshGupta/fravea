@@ -6,6 +6,7 @@ import Reviews from "./components/Reviews";
 import Specs from "./components/Specs";
 import Faqs from "./components/Faqs";
 import Futer from "./components/Futer";
+import './index.css';
 
 function App() {
 

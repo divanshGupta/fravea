@@ -1,1 +1,42 @@
 @import "tailwindcss";
+#menu a {
+    text-decoration: none;
+    color: #000;
+    position: relative;
+    z-index: 9;
+}
+#menu {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+#menu h4 {
+    border: 1px solid #8a8a8a89;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-weight: 500;
+    position: relative;
+    color: #000;
+    transition: all ease .4s;
+    overflow: hidden;
+}
+
+#menu h4::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    background-color: #000;
+    border-radius: 100%;
+    transition: all ease .4s;
+}
+#menu h4:hover::after {
+    bottom: 0;
+    border-radius: 0;
+}
+#menu h4:hover a{
+    color: #fff;
+}

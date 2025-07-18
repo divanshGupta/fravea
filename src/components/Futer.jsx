@@ -30,9 +30,9 @@ export default function Futer() {
 
           {/* Address/Contact */}
           <div className="text-center md:text-left space-y-2">
-            <p className="text-lg leading-tight">Asharfi Nagar Colony, Phase 2, Bhullanpur</p>
+            {/* <p className="text-lg leading-tight">Asharfi Nagar Colony, Phase 2, Bhullanpur</p> */}
             <p className="text-xl font-medium">Varanasi, Uttar Pradesh, 221108</p>
-            <p className="text-sm md:text-base">+91 9128375938 | fravea@sales.com</p>
+            <p className="text-sm md:text-base">+91 8318933132 | fravea@sales.com</p>
           </div>
 
           {/* Links */}
