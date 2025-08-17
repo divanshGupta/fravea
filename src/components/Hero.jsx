@@ -20,6 +20,7 @@ export default function Hero() {
           src="/packaging.png"
           alt="Fravea Multani Mitti"
           className="max-w-full h-auto md:h-[500px] hover:scale-110 transition-transform duration-300"
+          loading="eager"
         />
       </div>
     </div>
