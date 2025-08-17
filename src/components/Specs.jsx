@@ -21,7 +21,7 @@ export default function Specs() {
       <div className='w-full md:w-1/2 flex items-center justify-center'>
         <img
           className="w-full h-auto object-cover max-h-[400px] md:h-full"
-          src="./fravea.png"
+          src="./fravea.webp"
           alt=""
         />
       </div>

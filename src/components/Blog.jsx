@@ -9,7 +9,7 @@ export default function Blog() {
       </div>
 
       <div className='w-full md:w-1/2 flex items-center justify-center '>
-        <img className="rounded-2xl shadow-lg" src="./model.png" alt="" style={{height:400}} />
+        <img className="rounded-2xl shadow-lg" src="./model.webp" alt="" style={{height:400}} />
       </div>
     </div>
   )

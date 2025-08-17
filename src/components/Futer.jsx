@@ -53,7 +53,7 @@ export default function Futer() {
           className="w-full md:w-1/2 flex flex-col items-center justify-between">
           <div className="flex flex-col items-center">
             {/* <h1 className="text-7xl md:text-9xl tracking-wider">Fravea.</h1> */}
-            <img src="./logo.png" className="w-80 md:w-100 " alt='Fravea-logo'/>
+            <img src="./logo.webp" className="w-80 md:w-100 " alt='Fravea-logo'/>
             <p className="text-3xl tracking-wider">Organic</p>
           </div>
 

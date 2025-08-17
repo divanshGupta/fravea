@@ -40,7 +40,7 @@ export default function Navbar() {
   return (
     <header className="w-full fixed top-0 left-0 z-50 bg-white shadow-md">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-        <img src="./logo.png" className="w-25 md:w-40" alt='Fravea-logo'/>
+        <img src="./logo.webp" className="w-25 md:w-40" alt='Fravea-logo'/>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex gap-6 items-center">

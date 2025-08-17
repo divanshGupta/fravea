@@ -11,9 +11,9 @@ export const specs = [
 ];
 
 export const listings = [
-    {id: 1, content: "Flipkart", photo: "./flipkart.png", url: "https://flipkart.com"},
-    {id: 2, content: "Amazon", photo: "./amazon.png", url: "https://amazon.com"},
-    {id: 3, content: "Meesho", photo: "./meesho.png", url: "https://meesho.com"},
+    {id: 1, content: "Flipkart", photo: "./flipkart.webp", url: "https://flipkart.com"},
+    {id: 2, content: "Amazon", photo: "./amazon.webp", url: "https://amazon.com"},
+    {id: 3, content: "Meesho", photo: "./meesho.webp", url: "https://meesho.com"},
 ];
 
 

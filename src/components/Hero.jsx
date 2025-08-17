@@ -17,7 +17,7 @@ export default function Hero() {
       {/* Right Section */}
       <div className='w-full md:w-1/2 flex items-center justify-center md:px-6 md:py-10'>
         <img
-          src="/packaging.png"
+          src="/packaging.webp"
           alt="Fravea Multani Mitti"
           className="max-w-full h-auto md:h-[500px] hover:scale-110 transition-transform duration-300"
           loading="eager"
